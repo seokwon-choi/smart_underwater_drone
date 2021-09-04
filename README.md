@@ -41,6 +41,7 @@ irebase의 cloud message 기능과 json data 전송으로 해당 기기의 토�
 ![정확도](https://user-images.githubusercontent.com/85105917/132097979-a8b99d00-8450-4365-938a-8ec9fd6d032e.JPG)
 ##### 3-4. 이미지 분석 결과 전달 앱 : AI 이미지 분석 결과를 앱으로 전송받아 관리자와 드론 조종사가 확인할 수 있다.
 ![image](https://user-images.githubusercontent.com/85105917/132098617-e8754c44-7163-4ac2-9ae7-92752c7bda36.png)
+
 선체 관리 어플리케이션 제작으로 현재 선체 상태를 알려주고 딥러닝 기반 선체 분석 프로그램을 클라우드로 연동시켜 모바일에서도 프로그램 실행이 가능하다. Colab에서 분석된 데이터를 바탕으로 푸시 알림을 전송한다. 청소 요청 앱은 Android Studio로 구현하였으며 알림은 FCM 기능을 이용하여 해당하는 api key와 token을 통해 notification을 제공한다.
 ##### 4. 프로젝트 결과의 기대효과
 1. PC와의 통신으로 미리 위치 파악을 통한 잠수부 투입으로 탐색 시간 감소 및 인건비 절감 효과가 있음

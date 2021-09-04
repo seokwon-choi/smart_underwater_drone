@@ -1,1 +1,1 @@
-# smart_underwater_drone
+## AI기반 수중드론을 활용한 선박 청소 시스템

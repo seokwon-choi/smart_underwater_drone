@@ -37,7 +37,8 @@ irebase의 cloud message 기능과 json data 전송으로 해당 기기의 토�
 5. 정확도를 올리기 위하여 2번 학습시킨다. 
 6. 첫번째는 convolutional base를 모두 freeze하고 classifier만 재학습시키는 Top Layer Finetuning을 진행한다.
 7. 두번째는 100번째 계층 이후로는 unfreezing을 하여 finetuning을 진행한다.
-8. 데이터 이미지가 깨끗한 사진과 따개비가 붙은 사진이다 보니 사진 분류의 정확도가 높아 정확도가 100%가 나옴
+8. test data와 train data는 용량이 큼으로 github에는 올리지 못함
+9. 데이터 이미지가 깨끗한 사진과 따개비가 붙은 사진이다 보니 사진 분류의 정확도가 높아 정확도가 100%가 나옴
 ![정확도](https://user-images.githubusercontent.com/85105917/132097979-a8b99d00-8450-4365-938a-8ec9fd6d032e.JPG)
 #### 3-4. 이미지 분석 결과 전달 앱 : AI 이미지 분석 결과를 앱으로 전송받아 관리자와 드론 조종사가 확인할 수 있다.
 ![image](https://user-images.githubusercontent.com/85105917/132098617-e8754c44-7163-4ac2-9ae7-92752c7bda36.png)
